@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Brian Mlambo</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header"><a class="brand" href="index.html">BM<span>.</span></a><button class="menu-toggle"
+      id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <nav class="nav-menu" id="navMenu"><a href="index.html">Home</a><a href="about.html">About</a><a
+        href="projects.html">Projects</a><a href="achievements.html">Achievements</a><a class="active"
+        href="contact.html">Contact</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">START A CONVERSATION</p>
+      <h1>Contact <span>Me</span></h1>
+      <p>Have a question, project idea, or opportunity? Send me a message.</p>
+    </section>
+    <section class="section contact-layout">
+      <div class="contact-info">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's connect.</h2>
+        <p>I'm happy to hear from people interested in software development, collaboration, tutoring, ZK Graphix, or
+          career opportunities.</p><a class="contact-item" href="mailto:mlambobrian233@gmail.com"><i
+            class="fas fa-envelope"></i><span><small>Email</small>mlambobrian233@gmail.com</span></a><a
+          class="contact-item" href="https://github.com/thokozani2005" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-github"></i><span><small>GitHub</small>github.com/thokozani2005</span></a><a
+          class="contact-item" href="https://www.linkedin.com/in/brian-mlambo-206652394/" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-linkedin"></i><span><small>LinkedIn</small>Connect with
+            me</span></a>
+      </div>
+      <form class="contact-form" action="https://formsubmit.co/mlambobrian233@gmail.com" method="POST">
+        <h2>Send a message</h2>
+        <p class="muted">Complete the form below and your message will be sent to my email.</p>
+        <input type="hidden" name="_subject" value="New message from Brian Mlambo's portfolio"><input type="hidden"
+          name="_template" value="table"><input type="hidden" name="_captcha" value="true"><input type="text"
+          name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name"
+          required maxlength="100">
+        <label for="email">Your email</label><input id="email" name="email" type="email" placeholder="you@example.com"
+          required maxlength="150">
+        <label for="subject">Subject</label><input id="subject" name="subject" type="text"
+          placeholder="What is this about?" required maxlength="150">
+        <label for="message">Message</label><textarea id="message" name="message" rows="6"
+          placeholder="Write your message..." required maxlength="5000"></textarea>
+        <button class="btn btn-primary submit-btn" type="submit">Send Message <i
+            class="fas fa-paper-plane"></i></button>
+        
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Brian Mlambo. All rights reserved.</p>
+    <p>Software Development · Problem Solving · Continuous Learning</p>
+  </footer>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
